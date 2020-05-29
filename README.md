@@ -13,6 +13,7 @@ and wiring closets. This includes POS systems in the restaurant.
 
 A Gantt Chart is to be created.
 A budget which includes software, licensing, hardware, and wages and fees from Bacch Group will be created.
+Information security policies should also be created. 
 
 A front-end website for the restaurant should be created using images from the Digital Arts department.
 The website must display a home page with information, a page with hours and a map to the location, and a page displaying the full menu.
@@ -22,3 +23,4 @@ Back-end should be an Admin/employer portal connected to a database.
 It should have a login page with user credentials and proper input validation.
 The portal should have pages for inserts, edits, and deletes, depending on user permissions level.
 Tables should include users, employees, orders, order details, menu items, and inventory.
+
