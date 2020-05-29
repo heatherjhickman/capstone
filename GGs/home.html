@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <!--
+	Author: Heather Hickman
+   -->
+   
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   <title>GG's</title>
+      <link href="basecss.css" rel="stylesheet" />
+	  <link href="css.css" rel="stylesheet" />
+	  <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 480px)" href="mobile.css" />
+ 
+	<script type = "text/javascript">
+          function displayNext() {
+              x = (x === images.length - 1) ? 0 : x + 1;
+              document.getElementById("img").src = images[x];
+          }
+
+          function startTimer() {
+              setInterval(displayNext, 3000);
+          }
+
+          var images = [], x = -1;
+			images[0] = "images/home2.png";
+			images[1] = "images/home3.png";
+			images[2] = "images/home4.png";
+    </script>  
+</head>
+
+
+
+<body onload="startTimer()">
+   <header>
+		<center>
+            <img src="images/navbar.png" usemap="#image-map">
+
+            <map name="image-map">
+                <area target="" alt="" title="about" href="about.html" coords="245,98,81,65" shape="rect">
+                <area target="" alt="" title="home" href="home.html" coords="295,12,508,125" shape="rect">
+                <area target="" alt="" title="menu" href="menu.html" coords="532,67,725,100" shape="rect">
+            </map>
+        </center>
+   </header>
+   
+   <div id="home"><center>
+	   <img src="images/home1.png" alt="Welcome to GGs">
+	   <img id="img" src="images/home2.png"/>
+	   <img src="images/home5.png" alt="Chef Deb Green and Staff are happy you are here to appreciate our food">
+   </center></div>
+
+
+</body>
+</html>

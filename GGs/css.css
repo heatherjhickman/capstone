@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+/*
+	Author: Heather Hickman
+*/
+
+
+/* BODY STYLES */
+
+html {
+   background: #fff;
+   font-family: Verdana, Geneva, sans-serif;
+   height: 100%;
+}
+
+body {
+   background-color: #fff;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+   -webkit-align-items: center;
+   align-items: center;
+   margin: auto;
+   min-width: 320px;
+   width: 45%;
+}
+
+
+/* DIV #HOME STYLES */
+
+#home img {
+	width: 80%;
+	height: auto;
+	margin-top: 10px;
+}
+
+#home {
+	margin-top: 15px;
+	margin-right: 71px;
+}
+
+
+
+/* DIV #ABOUT STYLES */
+
+#about img {
+	width: 110%;
+	height: auto;
+	margin-top: 10px;
+}
+
+#about {
+	background: #eef6e8;
+	width: 93%;
+	height: 300px;
+	border-radius: 25px;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+
+
+
+#left {
+	float: left;
+	width: 60%;
+	padding-top: 15px;
+	padding-left: 40px;
+}
+
+#right {
+	float: right;
+	width: 40%;
+	padding-top: 60px;
+	padding-right: 40px;
+}
+
+#right img {
+	width: 95%;
+}
+
+
+
+#aboutpic img {
+	clear:both;
+	width: 90%;
+	height: auto;
+	margin-top: 10px;
+	margin-left: -30px;
+}
+
+
+
+
+
+
+
+
+
+/* DIV #MENU STYLES */
+
+#menu img {
+	width: 120%;
+	height: auto;
+	margin-top: 10px;
+}
+
+#menu {
+	margin-top: 10px;
+	margin-right: 150px;
+	margin-left: -60px;
+}
+
+
